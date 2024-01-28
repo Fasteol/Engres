@@ -1,13 +1,28 @@
 <template>
+  <!-- first page -->
   <div class="flex justify-between items-center">
     <div class="lg:my-16 lg:mx-20">
-      <div class="font-poppins font-medium text-2xl text-white">Hello Buds</div>
-      <div class="text-3xl font-poppins text-white mt-4">
-        I am <span class="text-[#7456FF]">Razan Mfs</span>
+      <div
+        class="font-poppins lg:text-start text-center lg:mt-0 mt-10 font-medium text-2xl text-white"
+      >
+        Hello Buds
       </div>
-      <div class="font-poppins text-[#999999] mt-2">Front End Developer</div>
-      <div class="w-16 bg-[#999999] h-[3px] rounded-lg mt-10"></div>
-      <div class="text-[#999999] font-poppins mt-4 lg:w-[500px]">
+      <div
+        class="text-3xl lg:text-start text-center font-poppins text-white mt-4"
+      >
+        I am <span class="text-[#7456FF]">Razan Muhammad Fauzan Sya'bani</span>
+      </div>
+      <div class="font-poppins lg:text-start text-center text-[#999999] mt-2">
+        Front End Developer
+      </div>
+      <div
+        class="flex lg:justify-start justify-center lg:items-start items-center"
+      >
+        <div class="w-16 bg-[#999999] h-[3px] rounded-lg mt-10"></div>
+      </div>
+      <div
+        class="text-[#999999] lg:text-start text-center font-poppins mt-4 lg:w-[500px]"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a
         necessitatibus nisi tempora eveniet accusamus autem natus itaque nihil.
         Quibusdam dolorum saepe mollitia accusamus architecto fugiat id
@@ -15,7 +30,7 @@
         commodi accusantium quia soluta reprehenderit. Rem cumque repellat quos
         unde ad ut possimus veniam?
       </div>
-      <div class="flex items-center gap-6 mt-7">
+      <div class="flex lg:justify-start justify-center items-center gap-6 mt-7">
         <button class="btn bg-[#7456FF] text-white border-[#7456FF]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +63,126 @@
       />
     </div>
   </div>
+
+  <!-- second page -->
+  <div class="mt-16">
+    <p class="font-poppins text-[#999999] text-md font-semibold text-center">
+      What Do I Offer
+    </p>
+    <p class="font-poppins text-white text-xl font-semibold text-center mt-5">
+      Creates Professional Design That’s<br />
+      Oriented Towards Client Needs
+    </p>
+
+    <div
+      class="flex flex-wrap justify-center items-center gap-5 mt-10 w-full py-10"
+    >
+      <div class="card lg:w-96 w-[22.5rem] bg-[#7456FF1A] shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title text-[#7456FF]">Slicing Ui</h2>
+
+          <div class="card justify-end">
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
+              magnam. Et ipsam quia beatae libero reprehenderit molestias cum,
+              debitis earum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card lg:w-96 w-[22.5rem] bg-[#7456FF1A] shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title text-[#7456FF]">Slicing Ui</h2>
+
+          <div class="card justify-end">
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
+              magnam. Et ipsam quia beatae libero reprehenderit molestias cum,
+              debitis earum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card lg:w-96 w-[22.5rem] bg-[#7456FF1A] shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title text-[#7456FF]">Slicing Ui</h2>
+
+          <div class="card justify-end">
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
+              magnam. Et ipsam quia beatae libero reprehenderit molestias cum,
+              debitis earum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- third page -->
+  <section class="bg-[#7456FF1A] py-10 mt-32">
+    <!-- <div class="font-poppins text-white text-lg text-center font-semibold">
+      My Consument
+    </div> -->
+    <div class="flex flex-wrap justify-center items-center gap-5 mt-5">
+      <div
+        class="card bg-[#131313E5] lg:w-fit w-[22.5rem] lg:p-6 border-dashed border-white border-2 shadow-xl"
+      >
+        <div class="card-body">
+          <p class="font-poppins text-white text-5xl text-center font-semibold">
+            05
+          </p>
+          <p class="text-white font-poppins text-center">Clients Order</p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-[#131313E5] lg:w-fit w-[22.5rem] lg:p-6 border-dashed border-white border-2 shadow-xl"
+      >
+        <div class="card-body">
+          <p class="font-poppins text-white text-5xl text-center font-semibold">
+            05
+          </p>
+          <p class="text-white font-poppins text-center">Clients Order</p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-[#131313E5] lg:w-fit w-[22.5rem] lg:p-6 border-dashed border-white border-2 shadow-xl"
+      >
+        <div class="card-body">
+          <p class="font-poppins text-white text-5xl text-center font-semibold">
+            05
+          </p>
+          <p class="text-white font-poppins text-center">Clients Order</p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-[#131313E5] lg:w-fit w-[22.5rem] lg:p-6 border-dashed border-white border-2 shadow-xl"
+      >
+        <div class="card-body">
+          <p class="font-poppins text-white text-5xl text-center font-semibold">
+            05
+          </p>
+          <p class="text-white font-poppins text-center">Clients Order</p>
+        </div>
+      </div>
+
+      <div
+        class="card bg-[#131313E5] lg:w-fit w-[22.5rem] lg:p-6 border-dashed border-white border-2 shadow-xl"
+      >
+        <div class="card-body">
+          <p class="font-poppins text-white text-5xl text-center font-semibold">
+            05
+          </p>
+          <p class="text-white font-poppins text-center">Clients Order</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

@@ -28,7 +28,7 @@
           <li><a>Blog</a></li>
         </ul>
       </div>
-      <a class="text-lg lg:mx-4 font-poppins font-semibold text-white"
+      <a class="text-xl lg:mx-4 font-poppins font-semibold text-white"
         ><span class="text-[#7456FF]">Razan</span><span>Mfs</span></a
       >
     </div>
